@@ -6,6 +6,8 @@ enable: true
 organizationalUnits:
   - name: Security
   - name: Infrastructure
+  - name: NOT_IN_LZ
+    ignore: true
 quarantineNewAccounts:
   enable: true
   scpPolicyName: Quarantine
