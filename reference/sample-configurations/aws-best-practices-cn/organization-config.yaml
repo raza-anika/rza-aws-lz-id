@@ -2,6 +2,8 @@ enable: true
 organizationalUnits:
   - name: Security
   - name: Infrastructure
+  - name: NOT_IN_LZ
+    ignore: true
 # SCP/Backup policy/Tagging Policy in Organization are not supported in China region.
 serviceControlPolicies: []
 taggingPolicies: []
